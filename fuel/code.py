@@ -4,7 +4,9 @@ while True:
         x,y = frac.split("/")
         x=int(x)
         y=int(y)
-
+        
+        if x < 0 or y <= 0:
+            raise ValueError
         if y==0:
             raise ZeroDivisionError
 
