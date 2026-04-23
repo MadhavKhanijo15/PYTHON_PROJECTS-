@@ -4,3 +4,4 @@ Some programs additionally support aliases, whereby you can more succinctly type
 carpedm20.github.io/emoji/all.html?enableList=enable_list_alias has a list of codes with aliases.
 
 This a program that prompts the user for a str in English and then outputs the “emojized” version of that str, converting any codes (or aliases) therein to their corresponding emoji.
+[This program requires emoji library which can be installed by passing following command in terminal window - pip install emoji]
