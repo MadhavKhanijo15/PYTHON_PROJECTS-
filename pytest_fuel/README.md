@@ -1,7 +1,7 @@
 Reimplemented fuel code, restructuring code, wherein:
 
 'convert' expects a str in X/Y format as input, wherein X is a non-negative integer and Y is a positive integer, and returns that fraction as a percentage rounded to the nearest int between 0 and 100, inclusive. If X and/or Y is not an integer, or if X is greater than Y, then convert raised a ValueError. If Y is 0, then convert raises a ZeroDivisionError.
-gauge expects an int and returns a str that is:
+'gauge' expects an int and returns a str that is:
 1. "E" if that int is less than or equal to 1,
 2. "F" if that int is greater than or equal to 99,
 3. and "Z%" otherwise, wherein Z is that same int.
