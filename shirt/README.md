@@ -9,6 +9,7 @@ In case of error the program instead exits via sys.exit:
 - if the user does not specify exactly two command-line arguments,
 - if the input’s and output’s names do not end in .jpg, .jpeg, or .png, case-insensitively,
 - if the input’s name does not have the same extension as the output’s name, or
-- if the specified input does not exist.  
+- if the specified input does not exist.
+ 
 Assuming that the input will be a photo of someone posing . So that, when they’re resized and cropped, the shirt appears to fit perfectly.
 This program is based on pillow library of python , so as to run this program make sure to first download pillow by writing the following command in terminal - pip install pillow
